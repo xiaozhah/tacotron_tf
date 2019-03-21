@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: tensorflow/tensorflow:latest
+From: tensorflow/tensorflow:1.8.0-rc1-gpu-py3
  
 %labels
   Author Zhou Xiao
