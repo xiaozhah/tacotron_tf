@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: pytorch/pytorch:latest
+From: tensorflow/tensorflow:latest
  
 %labels
   Author Zhou Xiao
@@ -11,5 +11,5 @@ From: pytorch/pytorch:latest
   apt-get upgrade -y
   apt-get install -y tmux htop ranger tree ncdu wget zip unzip nano
   apt-get autoclean
-  
-  /opt/conda/bin/pip install matplotlib==2.1.0 tensorflow numpy==1.13.3 inflect==0.2.5 librosa==0.6.0 scipy==1.0.0 tensorboardX==1.1 pillow
+  wget https://raw.githubusercontent.com/zyj008/tensorflow/master/requirements.txt
+  /opt/conda/bin/pip install -r requirements.txt
