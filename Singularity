@@ -9,7 +9,7 @@ From: tensorflow/tensorflow:latest
 %post
   apt-get update
   apt-get upgrade -y
-  apt-get install -y tmux htop ranger tree ncdu wget zip unzip nano
+  apt-get install -y tmux htop ranger tree ncdu wget zip unzip nano python3-pip
   apt-get autoclean
   wget https://raw.githubusercontent.com/zyj008/tensorflow/master/requirements.txt
-  /opt/conda/bin/pip install -r requirements.txt
+  pip3 install -r requirements.txt
