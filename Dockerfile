@@ -8,4 +8,4 @@ RUN  apt-get update && \
      wget https://raw.githubusercontent.com/zyj008/tensorflow/master/requirements.txt && \
      pip install -r requirements.txt
   
-ENV  LC_ALL=C WINEDEBUG=fixme-all
+ENV  LC_ALL=C
