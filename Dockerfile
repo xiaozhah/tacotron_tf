@@ -5,7 +5,7 @@ RUN  apt-get update && \
      apt-get upgrade -y && \
      apt-get install -y tmux htop ranger tree ncdu wget zip unzip nan && \
      apt-get clean && \
-     wget https://raw.githubusercontent.com/zyj008/tensorflow/master/requirements.txt && \
+     wget https://raw.githubusercontent.com/xiaozhah/tacotron_tf/master/requirements.txt && \
      pip install -r requirements.txt
   
 ENV  LC_ALL=C
