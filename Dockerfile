@@ -3,7 +3,7 @@ MAINTAINER Zhou Xiao
 
 RUN  apt-get update && \
      apt-get upgrade -y && \
-     apt-get install -y tmux htop ranger tree ncdu wget zip unzip nan && \
+     apt-get install -y tmux htop ranger tree ncdu wget zip unzip nano && \
      apt-get clean && \
      wget https://raw.githubusercontent.com/xiaozhah/tacotron_tf/master/requirements.txt && \
      pip install -r requirements.txt
