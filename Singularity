@@ -9,7 +9,6 @@ From: tensorflow/tensorflow:1.8.0-gpu-py3
 %post
   apt-get upgrade -y
   apt-get update  
-  apt-cache madison python3-pip
   apt-get install -y python3-pip=8.1.1-2ubuntu0.4 tmux htop ranger tree ncdu wget zip unzip nano 
   apt-get autoclean
   pip install pip --upgrade
