@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM tensorflow/tensorflow:1.8.0-gpu-py3
 MAINTAINER Zhou Xiao
 
 RUN  apt-get update && \
