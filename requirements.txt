@@ -7,5 +7,6 @@ numpy==1.14.0
 scipy==1.0.0
 tqdm==4.11.2
 Unidecode==0.4.20
+abc
 lws
 keras
