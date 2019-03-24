@@ -7,6 +7,7 @@ RUN  apt-get update && \
      apt-get clean && \
      rm -rf /var/cache/apt/* /var/lib/apt/lists/* && \
      wget https://raw.githubusercontent.com/xiaozhah/tacotron_tf/master/requirements.txt && \
+     pip3 install numpy
      pip3 install -r requirements.txt && \
      pip3 install tensorflow-gpu==1.12.0 && \
      rm -rf ~/.cache/pip && \
