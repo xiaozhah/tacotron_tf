@@ -4,7 +4,9 @@
 
 镜像配置来源于nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04，并自动构建在[Docker hub](https://cloud.docker.com/repository/docker/xzhou2333/tacotron_tf)
 
-![GPU配置](GPU.png "GPU配置")
+宿主机smidia-smi显示
+
+NVIDIA-SMI 410.104      Driver Version: 410.104      CUDA Version: 10.0     
 
 值得注意的是图中宿主机是CUDA10与镜像是CUDA9不矛盾，还有就是这里cudnn7作为环境不可缺少（因为服务器一般不会开放cuda相关目录下文件的读写权限）
 
