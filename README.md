@@ -1,6 +1,6 @@
 # tacotron_tf
 
-项目是在HPC上用singulairy运行tensorflow1.2.0
+项目是在HPC上用singulairy运行tensorflow1.2.0并配置了相关python包
 
 ![GPU配置](GPU.png "GPU配置")
 
