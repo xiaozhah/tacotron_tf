@@ -13,6 +13,7 @@
 ## 使用方法
 
 `singularity pull docker://xzhou2333/tacotron_tf`
+
 `singularity exec --nv -H 家目录 --pwd /mnt/tacotron2 --bind 宿主机目录:/mnt tacotron_tf_latest.sif python3 train.py`
 
 * --nv 设置singularity的GPU模式
