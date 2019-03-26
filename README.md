@@ -1,10 +1,10 @@
 # tacotron_tf
 
-项目是在HPC上用singulairy运行tensorflow1.2.0版本的tacotron2并配置了相关python包，见[requirements.txt](https://github.com/xiaozhah/tacotron_tf/blob/master/requirements.txt)
+项目是在HPC上用singulairy运行tensorflow1.12.0版本的tacotron2并配置了相关python包，见[requirements.txt](https://github.com/xiaozhah/tacotron_tf/blob/master/requirements.txt)
 
-镜像配置来源于nvidia/:9.0-ccudaudnn7-devel-ubuntu16.04，并自动构建在[Docker hub](https://cloud.docker.com/repository/docker/xzhou2333/tacotron_tf)
+镜像配置来源于nvidia/:9.0-cudnn7-devel-ubuntu16.04，并自动构建在[Docker hub](https://cloud.docker.com/repository/docker/xzhou2333/tacotron_tf)
 
-宿主机`smidia-smi`显示
+宿主机`nvidia-smi`显示
 
 >NVIDIA-SMI 410.104      Driver Version: 410.104      CUDA Version: 10.0     
 
